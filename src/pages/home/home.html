@@ -1,0 +1,37 @@
+<ion-header>
+    <ion-navbar color="ink">
+        <ion-title>الرئيسية</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+
+<ion-grid>
+  
+    <ion-row (click)="lost()" class="main_card">
+      <ion-col class="card1" col-4><img class="mg" src="./assets/imgs/lost.png"/></ion-col>
+      <ion-col class="c7" col-8><h1>المفقودات</h1></ion-col>
+    </ion-row>
+
+    <ion-row (click)="add_lost()" class="main_card">
+        <ion-col  class="c5" col-8><h1><h1>اضافة مفقود</h1></h1></ion-col>
+      <ion-col class="card2" col-4><img class="mg" src="./assets/imgs/add.png"/></ion-col>
+     
+    </ion-row>
+
+    <ion-row (click)="found()" class="main_card">
+      <ion-col class="card3" col-4><img class="mg" src="./assets/imgs/found.png"/></ion-col>
+      <ion-col class="c7" col-8><h1>الموجودات</h1></ion-col>
+    </ion-row>
+
+    <ion-row (click)="add_found()" class="main_card">
+        <ion-col class="c5" col-8> <h1>اضافة موجود</h1></ion-col>
+      <ion-col class="card4" col-4><img class="mg" src="./assets/imgs/add.png"/></ion-col>
+     
+    </ion-row>
+
+  </ion-grid>
+
+
+
+</ion-content>
